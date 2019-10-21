@@ -1,0 +1,449 @@
+@import "fonts.css";
+
+body{
+    font-family: "Myriad Pro"!important;
+}
+
+header{
+    color: #ffffff;
+    font-family:'Myriad Pro';
+    font-size: 15px;
+    font-style: normal;
+    background-color: #ededed;
+    padding: 5px 0;
+}
+
+header a{
+    margin-left: 30px;
+}
+
+#tel{
+    background-color: #13b4ad;
+    opacity: 0.5;
+    font-size: 16px;
+    color:white;
+    border-radius: 20px;
+    letter-spacing: 0.32px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 80px;
+}
+
+.banner img,.about img,.products img, .form img{
+    width: 100%;  
+}
+
+.banner-text{
+    color: #ededed;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    /* text-shadow: 2px 2px 5px #0000008a; */
+}
+
+.banner-text p{
+    margin-top: -15px;
+    font-size:18px;
+}
+
+.banner-text img, .alcance img{
+    width: 16px;
+    margin-left: 10px;
+}
+
+.banner-button{
+    color: #ffffff;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.servicos{
+    margin-top: -100px;
+    color: #ffffff;
+}
+
+.servicos div{
+    padding: 40px 20px 0 20px;
+}
+
+.servicos span{
+    width: 30px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    height: 4px;
+    display: block;
+    background-color: #fff;
+}
+
+.servicos div:first-child{
+    background-color: #ff881c;
+}
+
+.servicos div:nth-child(2){
+    background-color: #ff912e;
+}
+
+.servicos div:nth-child(3){
+    background-color: #ff9f48;
+}
+
+.servicos div:last-child{
+    background-color: #ffac60;
+}
+
+.slick-next {
+    right: 20% !important;
+}
+
+.slick-prev:before, .slick-next:before{
+    font-size: 40px !important;
+}
+
+.slick-prev {
+    left: 20% !important;
+}
+
+.about-title{
+    margin: 100px 0 50px 0;
+    position: relative;
+}
+
+.about-title h3,.products-title h3,.blog h3{
+    color: #82817f;
+    font-size: 32px;
+    line-height: 43px;
+}
+
+.about-bar{
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    height: 2px;
+    background-color: #e87815;
+}
+
+.about p{
+    margin-bottom: 40px;
+    color: #a5a5a5;
+    font-size: 19px;
+    line-height: 23px;  
+}
+
+.products-title,.blog-title{
+    margin: 30px 0 50px 0;
+    position: relative;
+}
+
+.products p,.blog p{
+    line-height: 43px;
+    color: #b5b5b5;
+    margin: 0;
+    font-size: 22px;
+}
+
+.products{
+    margin-bottom: 60px;
+}
+
+.nutren-square{
+    width: 17%;
+    height: 94%;
+    background-color: #cf9867;
+    opacity: 0.1;
+    position: absolute;
+    top: 13%;
+    left: -5%;
+    z-index: -1;
+}
+
+.products-list p{
+    color: #82817f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.products-list{
+    align-items: flex-end;
+}
+
+.stars{
+    margin: 10px 0;
+}
+
+.yellow{
+    color: #f9c816;
+}
+
+.grey{
+    color: #e6e6e6;
+}
+
+.white{
+    background-color: white;
+    color: #9b9b9b;
+    cursor: pointer;
+}
+
+.old-value{
+    text-decoration: line-through;
+}
+
+.value p{
+    color: #c7c7c7;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.current-value p:last-child{
+    color: #f58f36;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 17px;
+}
+
+.current-value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5%;
+}
+
+.form{
+    background-color: #fff7eb;
+    margin-top: 130px;
+}
+
+.form p{
+    color: #b5b5b5;
+    font-size: 19px;
+    line-height: 25px;
+
+}
+
+.form h3{
+    color: #82817f;
+    font-size: 30px;
+    line-height: 43px;
+}
+
+.form-content{
+    padding: 20px;
+}
+
+input{
+    border: 1px solid #ebebeb;
+    background-color: #ffffff;
+    width: 49%;
+    padding: 5px 15px;
+    margin-bottom: 10px !important;
+    border-radius: 10px;
+}
+
+textarea{
+    border: 1px solid #ebebeb;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 5px 15px;
+    margin-bottom: 10px !important;
+    border-radius: 10px;
+    resize: none !important;
+    height: 90px;
+}
+
+#nome{  
+    width: 100%;
+}
+
+#assunto{
+    width: 100%;
+}
+
+button{
+    padding: 10px 25px;
+    border: 1px solid #d7c3a7;
+    text-transform: uppercase !important;
+    background-color: transparent;
+    color:#d7c3a7;
+    font-size: 14px !important;
+    border-radius: 20px !important;
+    margin-right: 5px !important;
+}
+
+#reset{
+    margin-top: -5px;
+    margin-right: 10px;
+    width: 10px !important;
+}
+
+#send{
+    margin-top: -3px;
+    margin-left: 10px;
+    width: 15px !important;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.alcance{
+    padding: 80px;
+    background-image: url(../img/Rectangle_7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.alcance h3{
+    color: #ededed;
+    font-weight: 600;
+    font-size: 47px;
+    letter-spacing: 2px;
+    line-height: 47px;
+}
+
+.alcance p{
+    color: #ededed;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+footer{
+    margin-top: 70px;
+    position: relative;
+}
+
+.footer-bar{
+    position: absolute;
+    top: -25px;
+    width: 80px;
+    height: 2px;
+    background-color: #e87815;
+}
+
+.contact p{
+    color: #b3b3b3;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.contact{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.contact span{
+    color: #ff7329;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.copyright{
+    background-color: #f0f0f0;
+    padding: 40px 0 20px;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+.copyright ul{
+    list-style-type: none;
+}
+
+.copyright ul li{
+    margin-left: 5px;
+}
+
+.copyright p, .copyright li{
+    color: #b2b2b2;
+}
+
+.blog {
+    color: #82817f;
+    font-family: "Myriad Pro";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43px;
+    margin-top: 80px;
+}
+
+.blog p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.blog-content h3{
+    margin-top: 15px;
+}
+
+.blog-content{
+    margin-bottom: 70px;
+}
+
+
+@media(max-width:1199px){
+    
+    .about p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .blog p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+
+@media(max-width:991px){
+    
+    .servicos h3{
+        font-size: 20px;
+    }
+
+    .servicos p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .about p{
+        font-size: 17px;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:767px){
+    .servicos{
+        margin-top:-40px;
+    }
+
+    .about-title {
+        margin: 60px 0 50px 0;
+    }
+
+    .form{
+        margin-top: 80px;
+    }
+
+    .alcance h3 {
+        font-size: 35px;
+    }
+
+    .copyright img{
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width:576px){
+    .servicos{
+        margin-top: 20px;
+    }
+}
